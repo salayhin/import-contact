@@ -3,6 +3,7 @@ ImportContact::Application.routes.draw do
   # first created -> highest priority.
   get "/invites/:provider/contact_callback" => "invites#index"
   get "/contacts/failure" => "invites#failure"
+  get "/oauth2callback" =>  "invites#index"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
