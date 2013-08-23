@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/omnicontacts.rb" afterPath="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -9,10 +10,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../omnicontacts_example/config/initializers/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377251590569" ignored="false" />
     <file path="/routes.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377255549539" ignored="false" />
-    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377255967499" ignored="false" />
+    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377257195837" ignored="false" />
     <file path="/invites_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377254482465" ignored="false" />
     <file path="/fragment.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377254093462" ignored="false" />
     <file path="/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377256729162" ignored="false" />
+    <file path="/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377257560683" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,16 @@
       <file leaf-file-name="omnicontacts.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.1724138">
+            <state line="7" column="21" selection-start="504" selection-end="504" vertical-scroll-proportion="0.17857143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -108,6 +119,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" />
         <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
       </list>
     </option>
@@ -467,7 +479,11 @@
       <created>1377255969251</created>
       <updated>1377255969251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Client ID and secret added">
+      <created>1377257197902</created>
+      <updated>1377257197902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,7 +552,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Callback URL added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Client ID and secret added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -556,6 +572,7 @@
     <MESSAGE value="Call back changed" />
     <MESSAGE value="Route added&#10;" />
     <MESSAGE value="Callback URL added" />
+    <MESSAGE value="Client ID and secret added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,13 +580,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="49" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
@@ -668,9 +678,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.1724138">
+        <state line="7" column="21" selection-start="504" selection-end="504" vertical-scroll-proportion="0.17857143">
           <folding />
         </state>
       </provider>
