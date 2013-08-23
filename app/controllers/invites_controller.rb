@@ -16,6 +16,9 @@ class InvitesController < ApplicationController
     @contacts.each do |contact|
       puts "Contact found: name => #{contact[:name]}, email => #{contact[:email]}"
     end
+
+    puts @contacts
+    puts @user
   end
 
 end
