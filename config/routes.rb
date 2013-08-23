@@ -4,6 +4,7 @@ ImportContact::Application.routes.draw do
   get "/invites/:provider/contact_callback" => "invites#index"
   get "/contacts/failure" => "invites#failure"
   get "/oauth2callback" =>  "invites#index"
+  match "/contacts/:importer/callback" => "invites#contacts_callback"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
