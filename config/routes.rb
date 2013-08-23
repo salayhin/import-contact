@@ -1,8 +1,8 @@
 ImportContact::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
-
+  get "/invites/:provider/contact_callback" => "invites#index"
+  get "/contacts/failure" => "invites#failure"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
