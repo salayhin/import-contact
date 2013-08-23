@@ -51,6 +51,9 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.24)
     multi_json (1.7.9)
+    omnicontacts (0.2.2)
+      json
+      rack
     pg (0.16.0)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -104,6 +107,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  omnicontacts
   pg
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
