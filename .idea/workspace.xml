@@ -3,18 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/omnicontacts.rb" afterPath="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../omnicontacts_example/config/initializers/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377251590569" ignored="false" />
     <file path="/routes.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377255549539" ignored="false" />
-    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377260600282" ignored="false" />
+    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377579845901" ignored="false" />
     <file path="/invites_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377260781529" ignored="false" />
     <file path="/fragment.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377254093462" ignored="false" />
-    <file path="/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377258608174" ignored="false" />
+    <file path="/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377581074069" ignored="false" />
     <file path="/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377257560683" ignored="false" />
     <file path="/index.html.erb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377260589357" ignored="false" />
+    <file path="$PROJECT_DIR$/../orto/app/controllers/traders/our_vehicles_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377265635064" ignored="false" />
+    <file path="/our_vehicles_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377264171974" ignored="false" />
+    <file path="$PROJECT_DIR$/../orto/app/uploaders/vehicle_image_uploader.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377267737590" ignored="false" />
+    <file path="$PROJECT_DIR$/../orto/app/views/traders/our_vehicles/print_pdf.html.haml" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377265690363" ignored="false" />
+    <file path="/vehicle_image_uploader.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377267641203" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,34 +61,25 @@
       <file leaf-file-name="omnicontacts.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="64" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+            <state line="4" column="211" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="49" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invites_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="invites_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="633" selection-end="633" vertical-scroll-proportion="0.49916804">
+            <state line="17" column="7" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="294" selection-end="322" vertical-scroll-proportion="0.0">
+            <state line="8" column="65" selection-start="384" selection-end="384" vertical-scroll-proportion="0.19292605">
               <folding />
             </state>
           </provider>
@@ -91,7 +88,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.125">
+            <state line="5" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,9 +116,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" />
-        <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
         <option value="$PROJECT_DIR$/app/views/invites/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
       </list>
     </option>
   </component>
@@ -164,6 +161,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,12 +173,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orto" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
   </component>
   <component name="RecentsManager">
@@ -505,19 +503,22 @@
       <created>1377260601884</created>
       <updated>1377260601884</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="debugging">
+      <created>1377260790143</created>
+      <updated>1377260790143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940991" sideWeight="0.60030866" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26121163" sideWeight="0.60030866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -527,6 +528,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -628,63 +630,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts/http_utils.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7040817">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7040817" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="195" selection-end="195" vertical-scroll-proportion="0.17470881">
-          <folding />
-        </state>
+        <state line="7" column="25" selection-start="195" selection-end="195" vertical-scroll-proportion="0.17470881" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts/integration_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts/importer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts/authorization/oauth2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2462562">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2462562" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts/middleware/base_oauth.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/omnicontacts-0.2.2/lib/omnicontacts/importer/yahoo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="514" selection-end="514" vertical-scroll-proportion="0.39933443">
-          <folding />
-        </state>
+        <state line="16" column="51" selection-start="514" selection-end="514" vertical-scroll-proportion="0.39933443" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="294" selection-end="322" vertical-scroll-proportion="0.0">
+        <state line="5" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -696,23 +682,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="64" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="633" selection-end="633" vertical-scroll-proportion="0.49916804">
+        <state line="17" column="7" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="211" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="65" selection-start="384" selection-end="384" vertical-scroll-proportion="0.19292605">
           <folding />
         </state>
       </provider>
