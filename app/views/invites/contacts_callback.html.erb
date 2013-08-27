@@ -1,5 +1,10 @@
 <h2>Contacts Lists</h2>
 
-<% @contacts.each do |contact| %>
-    <%= "Contact found: name => #{contact[:name]}, email => #{contact[:email]}" %>
-<% end %>
+
+<% if !@contacts.nil?%>
+    <% @contacts.each do |c|%>
+        <ul>
+          <li><%= c[:name]%> : 	<%= c[:email]%></li>
+        </ul>
+    <%end%>
+<%end%>
