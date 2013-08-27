@@ -15,9 +15,7 @@ class InvitesController < ApplicationController
     #puts YAML::dump(@contacts)
     #puts YAML::dump(@user)
     #puts "List of contacts of #{@user[:name]} obtained from #{params[:importer]}:"
-    @contacts.each do |contact|
-      puts "Contact found: name => #{contact[:name]}, email => #{contact[:email]}"
-    end
+
   end
 
 end

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -9,7 +10,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../omnicontacts_example/config/initializers/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377251590569" ignored="false" />
     <file path="/routes.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377255549539" ignored="false" />
-    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377583649938" ignored="false" />
+    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377583809151" ignored="false" />
     <file path="/invites_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377583640935" ignored="false" />
     <file path="/fragment.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377254093462" ignored="false" />
     <file path="/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377581074069" ignored="false" />
@@ -20,6 +21,7 @@
     <file path="$PROJECT_DIR$/../orto/app/uploaders/vehicle_image_uploader.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377267737590" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/traders/our_vehicles/print_pdf.html.haml" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377265690363" ignored="false" />
     <file path="/vehicle_image_uploader.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377267641203" ignored="false" />
+    <file path="/contacts_callback.html.erb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377584288923" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="invites_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="invites_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="349" selection-end="454" vertical-scroll-proportion="0.31350482">
+            <state line="17" column="4" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,7 +98,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="301" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -118,6 +129,7 @@
         <option value="$PROJECT_DIR$/app/views/invites/index.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
         <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
       </list>
     </option>
   </component>
@@ -522,7 +534,11 @@
       <created>1377583651292</created>
       <updated>1377583651292</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="debugging">
+      <created>1377583810331</created>
+      <updated>1377583810331</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -534,7 +550,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26593235" sideWeight="0.60030866" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26593235" sideWeight="0.60030866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -622,13 +638,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="15" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
@@ -683,13 +692,6 @@
         <state line="16" column="51" selection-start="514" selection-end="514" vertical-scroll-proportion="0.39933443" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="49" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" />
@@ -711,7 +713,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="349" selection-end="454" vertical-scroll-proportion="0.31350482">
+        <state line="17" column="4" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="301" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
