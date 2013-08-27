@@ -9,10 +9,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../omnicontacts_example/config/initializers/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377251590569" ignored="false" />
     <file path="/routes.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377255549539" ignored="false" />
-    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377585838861" ignored="false" />
+    <file path="/Dummy.txt" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377586740330" ignored="false" />
     <file path="/invites_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377585073695" ignored="false" />
     <file path="/fragment.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377254093462" ignored="false" />
-    <file path="/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377586678608" ignored="false" />
+    <file path="/omnicontacts.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377587662901" ignored="false" />
     <file path="/CCECMfY6VQ.Zp6ojxobGLWM4Vyw5uowHRVcqOKmjpg--.html" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377257560683" ignored="false" />
     <file path="/index.html.erb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377260589357" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/traders/our_vehicles_controller.rb" changelist="bebc151e-5f48-4260-8c3f-8f94a3f8ad29" time="1377265635064" ignored="false" />
@@ -61,7 +61,7 @@
       <file leaf-file-name="omnicontacts.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="102" selection-start="556" selection-end="556" vertical-scroll-proportion="0.2837838">
+            <state line="5" column="124" selection-start="548" selection-end="548" vertical-scroll-proportion="0.12755102">
               <folding />
             </state>
           </provider>
@@ -564,7 +564,11 @@
       <created>1377585840363</created>
       <updated>1377585840363</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="debugging">
+      <created>1377586742334</created>
+      <updated>1377586742334</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,7 +581,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26593235" sideWeight="0.66358024" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33641976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33641976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -757,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="102" selection-start="556" selection-end="556" vertical-scroll-proportion="0.2837838">
+        <state line="5" column="124" selection-start="548" selection-end="548" vertical-scroll-proportion="0.12755102">
           <folding />
         </state>
       </provider>
