@@ -38,7 +38,13 @@
             <% @contacts.each do |c| %>
                 <tr>
                   <td><input type="checkbox" name="email" class="case" value="<%= c[:email] %>"></td>
-                  <td><%= c[:name] %></td>
+                  <td>
+                    <% if c[:name].present? %>
+                        <%= c[:name] %>
+                    <% else %>
+                        <%= c[:email].split("@")[0].capitalize %>
+                    <% end %>
+                  </td>
                   <td><%= c[:email] %></td>
                 </tr>
             <% end %>
