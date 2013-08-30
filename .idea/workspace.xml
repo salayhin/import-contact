@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377864670016" ignored="false" />
+    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377864741071" ignored="false" />
     <file path="/index.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377861680419" ignored="false" />
     <file path="/routes.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377860829842" ignored="false" />
-    <file path="/contacts_callback.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377864725803" ignored="false" />
+    <file path="/contacts_callback.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377864965432" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="26" selection-start="546" selection-end="546" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="invites_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="211" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="12" column="41" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -42,7 +52,7 @@
       <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.32608697">
+            <state line="15" column="49" selection-start="497" selection-end="497" vertical-scroll-proportion="0.37625417">
               <folding />
             </state>
           </provider>
@@ -89,6 +99,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/contact.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       </list>
     </option>
   </component>
@@ -295,7 +306,11 @@
       <created>1377864671118</created>
       <updated>1377864671118</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Table style added.">
+      <created>1377864742654</created>
+      <updated>1377864742654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +322,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25727773" sideWeight="0.6018519" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25727773" sideWeight="0.6018519" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -364,7 +379,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Typo Fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Table style added." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -382,6 +397,7 @@
     <MESSAGE value="More file added." />
     <MESSAGE value="Few modification done." />
     <MESSAGE value="Typo Fixed." />
+    <MESSAGE value="Table style added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -401,20 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="546" selection-end="546" vertical-scroll-proportion="0.3729097">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="211" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="54" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
@@ -429,9 +431,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="546" selection-end="546" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="41" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="665" selection-end="665" vertical-scroll-proportion="0.32608697">
+        <state line="15" column="49" selection-start="497" selection-end="497" vertical-scroll-proportion="0.37625417">
           <folding />
         </state>
       </provider>

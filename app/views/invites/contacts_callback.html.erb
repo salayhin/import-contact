@@ -23,8 +23,8 @@
   <div class="row-fluid">
     <h2>Contact Lists</h2>
 
-    <form class="form-horizontal">
-      <table  class="span 8 table table-striped">
+    <form class="form-horizontal" action="#" method="post">
+      <table class="span 8 table table-striped">
         <thead>
         <tr>
           <th><input type="checkbox" id="selectall"/></th>
@@ -71,18 +71,15 @@
 </div>
 
 <script language="javascript">
-    $(function(){
+    $(function () {
 
-        // add multiple select / deselect functionality
         $("#selectall").click(function () {
             $('.case').attr('checked', this.checked);
         });
 
-        // if all checkbox are selected, check the selectall checkbox
-        // and viceversa
-        $(".case").click(function(){
+        $(".case").click(function () {
 
-            if($(".case").length == $(".case:checked").length) {
+            if ($(".case").length == $(".case:checked").length) {
                 $("#selectall").attr("checked", "checked");
             } else {
                 $("#selectall").removeAttr("checked");
