@@ -9,4 +9,10 @@ class InvitesController < ApplicationController
 
   end
 
+  def invite_friends
+
+    SendEmail.invite_friends().deliver
+    return true
+  end
+
 end

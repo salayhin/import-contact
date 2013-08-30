@@ -23,6 +23,17 @@ ImportContact::Application.configure do
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
+  # Don't care if the mailer can't send
+  config.action_mailer.raise_delivery_errors = true
+
+  ### ActionMailer Config
+  config.action_mailer.default_url_options = {:host => 'salty-woodland-2489.herokuapp.com'}
+  # A dummy setup for development - no deliveries, but logged
+  config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default :charset => "utf-8"
+
   # Specifies the header that your server uses for sending files
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
