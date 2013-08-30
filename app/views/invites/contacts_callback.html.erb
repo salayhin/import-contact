@@ -1,10 +1,87 @@
-<h2>Contacts Lists</h2>
+<div class="container">
+
+  <div class="masthead">
+    <h3 class="muted">Import Contacts</h3>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-<% if !@contacts.nil?%>
-    <% @contacts.each do |c|%>
-        <ul>
-          <li><%= c[:name]%> : 	<%= c[:email]%></li>
-        </ul>
-    <%end%>
-<%end%>
+  <div class="row-fluid">
+    <h2>Contacts Lists</h2>
+
+    <form class="form-horizontal">
+      <table>
+        <thead>
+        <tr>
+          <th><input type="checkbox" id="selectall"/></th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <% if !@contacts.nil? %>
+            <% @contacts.each do |c| %>
+                <tr>
+                  <td><input type="checkbox" name="email" class="case" value="<%= c[:email] %>"></td>
+                  <td><%= c[:name] %></td>
+                  <td><%= c[:email] %></td>
+                </tr>
+            <% end %>
+        <% end %>
+
+        <tr>
+          <td colspan="3">
+            <button type="submit" class="btn">Invite Friends</button>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+    </form>
+
+  </div>
+
+  <hr>
+
+  <div class="footer">
+    <p>&copy; Company 2013</p>
+  </div>
+
+</div>
+
+<script language="javascript">
+    $(function(){
+
+        // add multiple select / deselect functionality
+        $("#selectall").click(function () {
+            $('.case').attr('checked', this.checked);
+        });
+
+        // if all checkbox are selected, check the selectall checkbox
+        // and viceversa
+        $(".case").click(function(){
+
+            if($(".case").length == $(".case:checked").length) {
+                $("#selectall").attr("checked", "checked");
+            } else {
+                $("#selectall").removeAttr("checked");
+            }
+
+        });
+    });
+</script>
