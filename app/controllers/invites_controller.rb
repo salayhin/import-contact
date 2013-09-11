@@ -14,6 +14,7 @@ class InvitesController < ApplicationController
     @contacts = params[:email]
 
     SendEmail.invite_friends(@contacts).deliver
+    redirect_to({:action => :index}, :flash => {:enquiry => 'Your message has been sent'})
     return true
 
     #Invite.send_email(@contacts)
