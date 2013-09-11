@@ -36,16 +36,17 @@
 
         <% if !@contacts.nil? %>
             <% @contacts.each do |c| %>
+                <% if c[:name].present? %>
+                    <%= name = c[:name] %>
+                <% else %>
+                    <%= name = c[:email].split("@")[0].capitalize %>
+                <% end %>
                 <tr>
-                  <td><input type="checkbox" name="email[]" class="case" value="<%= c[:email] %>"></td>
+                  <td><input type="checkbox" name="email[<%= name %>]" class="case" value="<%= c[:email] %>"></td>
                   <td>
-                    <% if c[:name].present? %>
-                        <%= c[:name] %>
-                    <% else %>
-                        <%= c[:email].split("@")[0].capitalize %>
-                    <% end %>
+                     <%= name %>
                   </td>
-                  <td><%= c[:email] %></td>
+                  <td><%=  c[:email] %></td>
                 </tr>
             <% end %>
         <% end %>
