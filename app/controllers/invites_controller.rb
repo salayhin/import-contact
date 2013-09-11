@@ -11,8 +11,13 @@ class InvitesController < ApplicationController
 
   def invite_friends
 
-    SendEmail.invite_friends().deliver
-    return true
+    params[:email].each do |value|
+      puts value # should print the values for each input
+    end
+    #Invite.send_email
+
+    #SendEmail.invite_friends().deliver
+    #return true
   end
 
 end
