@@ -2,9 +2,9 @@ ImportContact::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   resource 'invites'
-  get "/contacts/failure" => "Imports#failure"
-  get "/oauth2callback" =>  "Imports#contacts_callback"
-  match "/contacts/:importer/callback" => "Imports#contacts_callback"
+  get "/contacts/failure" => "Invites#failure"
+  get "/oauth2callback" =>  "Invites#contacts_callback"
+  match "/contacts/:importer/callback" => "Invites#contacts_callback"
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
@@ -52,7 +52,7 @@ ImportContact::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'Imports#index'
+   root :to => 'Invites#index'
 
   # See how all your routes lay out with "rake routes"
 
