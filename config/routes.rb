@@ -6,6 +6,8 @@ ImportContact::Application.routes.draw do
   get "/oauth2callback" =>  "Invites#contacts_callback"
   match "/contacts/:importer/callback" => "Invites#contacts_callback"
 
+  get 'invite_friends', :to => 'invites#invite_friends', :as => :invite_friends
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
