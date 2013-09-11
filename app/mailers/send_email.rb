@@ -15,7 +15,6 @@ class SendEmail < ActionMailer::Base
       from = ['do-not-reply@salayhin.wordpress.com']
 
       mail :to => to, :subject => 'Invitation to join', :from => from do |format|
-        format.text
         format.html
       end
     end

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/send_email/invite_friends.text.erb" afterPath="$PROJECT_DIR$/app/views/send_email/invite_friends.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/send_email.rb" afterPath="$PROJECT_DIR$/app/mailers/send_email.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378884418336" ignored="false" />
+    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378884603659" ignored="false" />
     <file path="/index.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377861680419" ignored="false" />
     <file path="/routes.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378880761345" ignored="false" />
     <file path="/contacts_callback.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378883252371" ignored="false" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="send_email.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/mailers/send_email.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="414" selection-end="414" vertical-scroll-proportion="0.4152249">
+            <state line="16" column="81" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4152249">
               <folding />
             </state>
           </provider>
@@ -157,8 +157,8 @@
         <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
         <option value="$PROJECT_DIR$/app/models/invite.rb" />
         <option value="$PROJECT_DIR$/app/views/send_email/invite_friends.text.erb" />
-        <option value="$PROJECT_DIR$/app/mailers/send_email.rb" />
         <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/send_email.rb" />
       </list>
     </option>
   </component>
@@ -481,7 +481,11 @@
       <created>1378884419377</created>
       <updated>1378884419377</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Refactoring">
+      <created>1378884604702</created>
+      <updated>1378884604702</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -677,7 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/send_email.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="414" selection-end="414" vertical-scroll-proportion="0.4152249">
+        <state line="16" column="81" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4152249">
           <folding />
         </state>
       </provider>
