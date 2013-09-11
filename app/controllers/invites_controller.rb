@@ -13,10 +13,8 @@ class InvitesController < ApplicationController
 
     @contacts = params[:email]
 
-    #Invite.send_email
+    Invite.send_email(@contacts)
 
-    #SendEmail.invite_friends().deliver
-    #return true
   end
 
 end
