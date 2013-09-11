@@ -37,7 +37,7 @@
         <% if !@contacts.nil? %>
             <% @contacts.each do |c| %>
                 <tr>
-                  <td><input type="checkbox" name="email" class="case" value="<%= c[:email] %>"></td>
+                  <td><input type="checkbox" name="email[<%= c[:email] %>]" class="case" value="<%= c[:email] %>"></td>
                   <td>
                     <% if c[:name].present? %>
                         <%= c[:name] %>
