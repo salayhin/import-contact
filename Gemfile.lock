@@ -73,7 +73,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.24)
     multi_json (1.7.9)
-    omnicontacts (0.2.2)
+    omnicontacts (0.3.4)
       json
       rack
     pg (0.16.0)
@@ -135,7 +135,7 @@ DEPENDENCIES
   delayed_job_active_record
   jquery-rails
   less-rails
-  omnicontacts
+  omnicontacts (~> 0.3.4)
   pg
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)

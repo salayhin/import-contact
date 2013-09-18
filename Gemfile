@@ -26,7 +26,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'omnicontacts'
+gem "omnicontacts", "~> 0.3.4"
 
 gem 'delayed_job_active_record'
 
