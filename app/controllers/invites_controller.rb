@@ -6,6 +6,8 @@ class InvitesController < ApplicationController
 
   def contacts_callback
     @contacts = request.env['omnicontacts.contacts']
+    @contacts.inspect
+    abort("Message goes here")
 
   end
 
