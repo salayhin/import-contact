@@ -16,7 +16,7 @@ class InvitesController < ApplicationController
     @contacts.each do |value|
       @name  = value.first
       @email = value.last
-      SendEmail.invite_friends(@contacts).deliver
+      SendEmail.invite_friends(@name, @email).deliver
 
     end
 
