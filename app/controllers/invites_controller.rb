@@ -1,7 +1,7 @@
 class InvitesController < ApplicationController
 
   def index
-    session[:testing] = time.now
+    session[:testing] = Time.now
     @contacts = request.env['omnicontacts.contacts']
   end
 
