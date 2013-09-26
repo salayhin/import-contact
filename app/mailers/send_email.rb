@@ -7,16 +7,16 @@ class SendEmail < ActionMailer::Base
   #   en.send_email.invite_friends.subject
   #
 
-  def invite_friends(contacts)
-    contacts.each do |value|
+  def invite_friends(name, email)
 
-      @name = value.first
-      to = value.last
-      from = ['do-not-reply@salayhin.wordpress.com']
+    @name  = name
+    @email = email
+    to = "#{@name} <#{@email}>"
+    from = ['do-not-reply@salayhin.wordpress.com']
 
       mail :to => to, :subject => 'Invitation to join', :from => from do |format|
         format.html
       end
-    end
+
   end
 end

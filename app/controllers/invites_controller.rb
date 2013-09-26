@@ -12,9 +12,14 @@ class InvitesController < ApplicationController
   def invite_friends
 
     @contacts = params[:email]
-    raise @contacts.to_json
 
-    SendEmail.invite_friends(@contacts).deliver
+    @contacts.each do |value|
+      @name  = value.first
+      @email = value.last
+      SendEmail.invite_friends(@contacts).deliver
+
+    end
+
     redirect_to({:action => :index}, :flash => {:enquiry => 'Your message has been sent'})
     return true
 
