@@ -2,6 +2,7 @@ ImportContact::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   resource 'invites'
+  match "invites" => "Invites#index"
   get "/contacts/failure" => "Invites#failure"
   get "/oauth2callback" =>  "Invites#contacts_callback"
   match "/contacts/:importer/callback" => "Invites#contacts_callback"
