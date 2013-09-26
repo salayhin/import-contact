@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190491625" ignored="false" />
+    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190843219" ignored="false" />
     <file path="/index.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379490218384" ignored="false" />
     <file path="/routes.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190822475" ignored="false" />
-    <file path="/contacts_callback.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379493559734" ignored="false" />
-    <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380189736845" ignored="false" />
+    <file path="/contacts_callback.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380191774624" ignored="false" />
+    <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380191576044" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/contacts_callback.html.haml" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379053285918" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/config/initializers/omnicontacts.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379489425579" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/mailers/auth_mailer.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378897873992" ignored="false" />
     <file path="/auth_mailer.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377866217658" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/auth_mailer/invite_friends.html.haml" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377866269961" ignored="false" />
     <file path="/send_email.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190202429" ignored="false" />
-    <file path="/invites_controller.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190750441" ignored="false" />
+    <file path="/invites_controller.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380191824886" ignored="false" />
     <file path="/development.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379052489435" ignored="false" />
     <file path="$PROJECT_DIR$/../rails_sample_admin_area/config/database.yml" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378805817202" ignored="false" />
     <file path="$PROJECT_DIR$/../rails_sample_admin_area/Gemfile" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378805793520" ignored="false" />
@@ -101,7 +102,7 @@
       <file leaf-file-name="invites_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="373" selection-end="373" vertical-scroll-proportion="0.46712804">
+            <state line="13" column="9" selection-start="277" selection-end="277" vertical-scroll-proportion="0.33737025">
               <folding />
             </state>
           </provider>
@@ -110,7 +111,7 @@
       <file leaf-file-name="send_email.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/send_email.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="10" column="42" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +120,7 @@
       <file leaf-file-name="invite_friends.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/send_email/invite_friends.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="10" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.875">
+            <state line="3" column="64" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -146,7 +147,7 @@
       <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="61" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-5.0">
+            <state line="0" column="21" selection-start="4" selection-end="21" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -185,9 +186,9 @@
         <option value="$PROJECT_DIR$/app/views/invites/index.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
         <option value="$PROJECT_DIR$/app/mailers/send_email.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       </list>
     </option>
@@ -238,16 +239,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="import-contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="import-contact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="import-contact" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -565,7 +556,11 @@
       <created>1380190492465</created>
       <updated>1380190492465</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Debugging">
+      <created>1380190844052</created>
+      <updated>1380190844052</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,16 +711,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="61" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-5.0">
+        <state line="12" column="38" selection-start="390" selection-end="390" vertical-scroll-proportion="0.079422385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="390" selection-end="390" vertical-scroll-proportion="0.079422385">
+        <state line="4" column="35" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -739,28 +734,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/send_email.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+        <state line="10" column="42" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/send_email/invite_friends.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.875">
+        <state line="3" column="64" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+        <state line="0" column="21" selection-start="4" selection-end="21" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="373" selection-end="373" vertical-scroll-proportion="0.46712804">
+        <state line="13" column="9" selection-start="277" selection-end="277" vertical-scroll-proportion="0.33737025">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 class InvitesController < ApplicationController
 
   def index
+    session[:testing] = "this is a test"
     @contacts = request.env['omnicontacts.contacts']
   end
 
@@ -10,11 +11,17 @@ class InvitesController < ApplicationController
   end
 
   def invite_friends
-
+    puts session[:testing]
     @contacts = params[:email]
 
     @contacts.each do |value|
-      @name  = value.first
+
+      if value.first.present?
+        @name = value.first
+      else
+        @name = value.last.split("@")[0].capitalize
+      end
+
       @email = value.last
       SendEmail.invite_friends(@name, @email).deliver
 
