@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190843219" ignored="false" />
+    <file path="/Dummy.txt" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380191837959" ignored="false" />
     <file path="/index.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379490218384" ignored="false" />
     <file path="/routes.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190822475" ignored="false" />
     <file path="/contacts_callback.html.erb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380191774624" ignored="false" />
@@ -19,7 +18,7 @@
     <file path="/auth_mailer.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377866217658" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/auth_mailer/invite_friends.html.haml" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1377866269961" ignored="false" />
     <file path="/send_email.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380190202429" ignored="false" />
-    <file path="/invites_controller.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380191824886" ignored="false" />
+    <file path="/invites_controller.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1380192063966" ignored="false" />
     <file path="/development.rb" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1379052489435" ignored="false" />
     <file path="$PROJECT_DIR$/../rails_sample_admin_area/config/database.yml" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378805817202" ignored="false" />
     <file path="$PROJECT_DIR$/../rails_sample_admin_area/Gemfile" changelist="bfc5e10d-5e1b-46e8-84d9-5d76bcd3e2d6" time="1378805793520" ignored="false" />
@@ -102,7 +101,7 @@
       <file leaf-file-name="invites_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="277" selection-end="277" vertical-scroll-proportion="0.33737025">
+            <state line="6" column="25" selection-start="153" selection-end="153" vertical-scroll-proportion="0.15570934">
               <folding />
             </state>
           </provider>
@@ -560,7 +559,11 @@
       <created>1380190844052</created>
       <updated>1380190844052</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Debugging">
+      <created>1380191839479</created>
+      <updated>1380191839479</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -755,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="277" selection-end="277" vertical-scroll-proportion="0.33737025">
+        <state line="6" column="25" selection-start="153" selection-end="153" vertical-scroll-proportion="0.15570934">
           <folding />
         </state>
       </provider>
