@@ -34,4 +34,8 @@ class InvitesController < ApplicationController
 
   end
 
+  def twitter_callback
+    render :text => env["omniauth.auth"]
+  end
+
 end

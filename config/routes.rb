@@ -9,6 +9,8 @@ ImportContact::Application.routes.draw do
 
   post "invite_friends", :to => "invites#invite_friends", :as => :invite_friends
 
+  match 'auth/twitter/callback', :to => 'invites#twitter_callback'
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
