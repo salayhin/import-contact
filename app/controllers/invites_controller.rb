@@ -10,7 +10,7 @@ class InvitesController < ApplicationController
 
   def contacts_callback
     @contacts = request.env['omnicontacts.contacts']
-    puts @contacts.to_yaml
+
 
   end
 

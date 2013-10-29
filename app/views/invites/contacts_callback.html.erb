@@ -35,6 +35,7 @@
         </thead>
         <tbody>
 
+        <%= @contacts.to_yaml %>
         <% if !@contacts.nil? %>
             <% @contacts.each do |c| %>
                 <% if c[:name].present? %>
