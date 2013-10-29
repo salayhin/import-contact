@@ -1,10 +1,16 @@
 class InvitesController < ApplicationController
   require "net/http"
   require "open-uri"
-
+  require 'digest/sha2'
+  require 'digest'
 
   def index
     session[:testing] = Time.now
+    #sha256 = Digest::SHA2.new(256)
+    #sha256.digest("Bond, James Bond")
+    #password = "44ffa2a3ce881ff404c3f67a44616fd5bcf6d35b7b02a106169dacbd6b75fe28"
+    #hash = Digest::SHA256.hexdigest(password)
+    #puts hash
     @contacts = request.env['omnicontacts.contacts']
   end
 

@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b4ea4856-73b4-438f-be3b-d56c45a39c8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/hotmail.rb" afterPath="$PROJECT_DIR$/config/initializers/hotmail.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383039566536" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383039843097" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -23,7 +25,7 @@
     <file path="$PROJECT_DIR$/../orto/db/schema.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382700901404" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/confirmation.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025341423" ignored="false" />
     <file path="/confirmation.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383023729136" ignored="false" />
-    <file path="/fragment.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382703923860" ignored="false" />
+    <file path="/fragment.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383040583474" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/config/initializers/omnicontacts.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383030076937" ignored="false" />
     <file path="/invites_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025559216" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/_public_user_menu.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025341423" ignored="false" />
@@ -58,10 +60,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="invites_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="invites_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+            <state line="9" column="28" selection-start="243" selection-end="243" vertical-scroll-proportion="0.22537562">
               <folding />
             </state>
           </provider>
@@ -70,7 +72,7 @@
       <file leaf-file-name="hotmail.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="66" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+            <state line="27" column="28" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,19 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="46" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.68809074">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hmac.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/oauth-0.4.7/lib/digest/hmac.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="9" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+            <state line="37" column="33" selection-start="978" selection-end="978" vertical-scroll-proportion="-1.2244898">
               <folding />
             </state>
           </provider>
@@ -145,11 +138,11 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/invites/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/hotmail.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
         <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/hotmail.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       </list>
     </option>
   </component>
@@ -442,7 +435,11 @@
       <created>1383039567706</created>
       <updated>1383039567706</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Debugging hotmail">
+      <created>1383039844467</created>
+      <updated>1383039844467</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,7 +451,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25255704" sideWeight="0.67145133" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25255704" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -533,17 +530,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="22" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" />
@@ -604,9 +594,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/oauth-0.4.7/lib/digest/hmac.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="66" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+        <state line="41" column="9" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/digest.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="7" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -618,23 +615,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/oauth-0.4.7/lib/digest/hmac.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+        <state line="37" column="33" selection-start="978" selection-end="978" vertical-scroll-proportion="-1.2244898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="46" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.68809074">
+        <state line="9" column="28" selection-start="243" selection-end="243" vertical-scroll-proportion="0.22537562">
           <folding />
         </state>
       </provider>
