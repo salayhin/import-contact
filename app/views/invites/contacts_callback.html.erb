@@ -35,7 +35,7 @@
         </thead>
         <tbody>
 
-        <%= @contacts.to_json %>
+
         <% if !@contacts.nil? %>
             <% @contacts.each do |c| %>
                 <% if c[:name].present? %>
@@ -43,6 +43,7 @@
                 <% else %>
                     <% name = c[:email].split("@")[0].capitalize %>
                 <% end %>
+                <%= c[:email_hashes] %>
                 <tr>
                   <td><input type="checkbox" name="email[<%= name %>]" class="case" value="<%= c[:email] %>"></td>
                   <td>
