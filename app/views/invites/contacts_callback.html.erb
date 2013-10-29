@@ -35,6 +35,7 @@
         </thead>
         <tbody>
 
+        <%= @contacts.to_json %>
 
         <% if !@contacts.nil? %>
             <% @contacts.each do |c| %>

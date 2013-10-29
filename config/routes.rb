@@ -6,6 +6,7 @@ ImportContact::Application.routes.draw do
   get "/contacts/failure" => "Invites#failure"
   get "/oauth2callback" =>  "Invites#contacts_callback"
   match "/contacts/:importer/callback" => "Invites#contacts_callback"
+  match "/invitations/live/contact_callback" => "Invites#contacts_callback"
 
   post "invite_friends", :to => "invites#invite_friends", :as => :invite_friends
   post "send_message_twitter", :to => "invites#send_message_twitter", :as => :send_message_twitter
