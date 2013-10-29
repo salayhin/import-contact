@@ -45,7 +45,6 @@
                     <% name = c[:email].split("@")[0].capitalize %>
                 <% end %>
                 <%= c[:email_hashes] %> <br />
-                <%=# Digest::SHA256.hexdigest(c["email_hashes]"]).to_json %><br />
                 <tr>
                   <td><input type="checkbox" name="email[<%= name %>]" class="case" value="<%= c[:email] %>"></td>
                   <td>
