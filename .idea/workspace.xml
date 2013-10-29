@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b4ea4856-73b4-438f-be3b-d56c45a39c8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/invites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025573948" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025996521" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -36,7 +35,7 @@
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/dashboard.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025341423" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/_public_user_vehicle_photos.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024283405" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/edit_vehicle.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
-    <file path="/contacts_callback.html.erb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025985509" ignored="false" />
+    <file path="/contacts_callback.html.erb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383026374588" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="12" selection-start="958" selection-end="958" vertical-scroll-proportion="0.7304348">
+            <state line="36" column="63" selection-start="945" selection-end="945" vertical-scroll-proportion="0.70434785">
               <folding />
             </state>
           </provider>
@@ -363,7 +362,11 @@
       <created>1383025576545</created>
       <updated>1383025576545</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Debugging hotmail">
+      <created>1383025998689</created>
+      <updated>1383025998689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -565,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="12" selection-start="958" selection-end="958" vertical-scroll-proportion="0.7304348">
+        <state line="36" column="63" selection-start="945" selection-end="945" vertical-scroll-proportion="0.70434785">
           <folding />
         </state>
       </provider>
