@@ -7,7 +7,7 @@
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383038287192" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383038636235" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -35,7 +35,7 @@
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/dashboard.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383025341423" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/_public_user_vehicle_photos.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024283405" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/edit_vehicle.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383027376318" ignored="false" />
-    <file path="/contacts_callback.html.erb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383038624865" ignored="false" />
+    <file path="/contacts_callback.html.erb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383038972308" ignored="false" />
     <file path="/a.dummy" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383027278259" ignored="false" />
     <file path="/omnicontacts.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383038088417" ignored="false" />
     <file path="/routes.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383031501813" ignored="false" />
@@ -88,7 +88,7 @@
       <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="70" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.35198557">
+            <state line="47" column="20" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.35198557">
               <folding />
             </state>
           </provider>
@@ -426,7 +426,11 @@
       <created>1383038288298</created>
       <updated>1383038288298</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Debugging hotmail">
+      <created>1383038637523</created>
+      <updated>1383038637523</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -602,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/oauth-0.4.7/lib/digest/hmac.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="9" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
@@ -616,9 +613,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/invites_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="70" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.35198557">
+        <state line="47" column="20" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.35198557">
           <folding />
         </state>
       </provider>
