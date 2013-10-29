@@ -7,7 +7,7 @@
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383039386307" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383039566536" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -88,7 +88,7 @@
       <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="32" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.8015123">
+            <state line="46" column="46" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.68809074">
               <folding />
             </state>
           </provider>
@@ -438,7 +438,11 @@
       <created>1383039387375</created>
       <updated>1383039387375</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Debugging hotmail">
+      <created>1383039567706</created>
+      <updated>1383039567706</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -630,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="32" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.8015123">
+        <state line="46" column="46" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.68809074">
           <folding />
         </state>
       </provider>
