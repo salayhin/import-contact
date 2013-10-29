@@ -30,6 +30,7 @@ gem "omnicontacts", "~> 0.3.4"
 gem "omniauth-twitter", "~> 1.0.1"
 
 gem 'delayed_job_active_record'
+gem 'twitter', '>= 1.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

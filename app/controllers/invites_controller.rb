@@ -1,4 +1,7 @@
 class InvitesController < ApplicationController
+  require "net/http"
+  require "open-uri"
+
 
   def index
     session[:testing] = Time.now
@@ -7,6 +10,7 @@ class InvitesController < ApplicationController
 
   def contacts_callback
     @contacts = request.env['omnicontacts.contacts']
+    @contacts.to_yaml
 
   end
 
@@ -35,7 +39,35 @@ class InvitesController < ApplicationController
   end
 
   def twitter_callback
-    render :text => env["omniauth.auth"]
+    screen_name = env["omniauth.auth"]["extra"]["raw_info"]["screen_name"]
+    oauth_token = env["omniauth.auth"]["extra"]["access_token"].params["oauth_token"]
+    oauth_token_secret = env["omniauth.auth"]["extra"]["access_token"].params["oauth_token_secret"]
+    user_id = env["omniauth.auth"]["uid"]
+
+    client = Twitter.configure do |config|
+      config.consumer_key        = CONSUMER_KEY
+      config.consumer_secret     = CONSUMER_SECRET
+      config.oauth_token         = oauth_token
+      config.oauth_token_secret  = oauth_token_secret
+    end
+
+
+
+    tweet = "I'm advertising my car on Orto Cars."
+
+    client.update(tweet)
+
   end
+
+  def send_message_twitter
+
+    @contacts = params[:id]
+
+    @contacts.each do |value|
+      Twitter.direct_message_create(value, "message")
+    end
+
+  end
+
 
 end

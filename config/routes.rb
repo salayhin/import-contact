@@ -8,8 +8,10 @@ ImportContact::Application.routes.draw do
   match "/contacts/:importer/callback" => "Invites#contacts_callback"
 
   post "invite_friends", :to => "invites#invite_friends", :as => :invite_friends
+  post "send_message_twitter", :to => "invites#send_message_twitter", :as => :send_message_twitter
 
   match 'auth/twitter/callback', :to => 'invites#twitter_callback'
+  match 'invite/twitter_friends', :to => 'invites#invite_twitter_friend'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
