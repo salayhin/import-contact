@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ea4856-73b4-438f-be3b-d56c45a39c8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" afterPath="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383037407515" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383037614214" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -67,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hotmail.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hotmail.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="62" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0">
+            <state line="44" column="62" selection-start="1900" selection-end="1900" vertical-scroll-proportion="1.1262798">
               <folding />
             </state>
           </provider>
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contacts_callback.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="53" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.36395147">
+            <state line="48" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="49" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+            <state line="9" column="88" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +106,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,9 +138,9 @@
         <option value="$PROJECT_DIR$/app/views/invites/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/invites_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/omnicontacts.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/hotmail.rb" />
         <option value="$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -401,13 +401,18 @@
       <created>1383033678908</created>
       <updated>1383033678908</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Debugging hotmail">
+      <created>1383037617608</created>
+      <updated>1383037617608</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1415" y="24" width="1317" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,7 +427,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854864" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -547,35 +551,14 @@
         <state line="32" column="23" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.3505843" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/twitter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="3" selection-start="221" selection-end="221" vertical-scroll-proportion="0.15570934" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="49" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="62" selection-start="1900" selection-end="1900" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="103" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+        <state line="48" column="17" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
@@ -587,9 +570,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/invites/contacts_callback.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/omnicontacts.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="53" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.36395147">
+        <state line="8" column="103" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="88" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="62" selection-start="1900" selection-end="1900" vertical-scroll-proportion="1.1262798">
           <folding />
         </state>
       </provider>
