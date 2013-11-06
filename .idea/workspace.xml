@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4ea4856-73b4-438f-be3b-d56c45a39c8a" name="Default" comment="Debugging hotmail">
+    <list default="true" id="b4ea4856-73b4-438f-be3b-d56c45a39c8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/hotmail.rb" afterPath="$PROJECT_DIR$/config/initializers/hotmail.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383717614464" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383718382096" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -71,7 +71,7 @@
       <file leaf-file-name="hotmail.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="58" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.23037542">
+            <state line="109" column="45" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.51194537">
               <folding />
             </state>
           </provider>
@@ -450,7 +450,11 @@
       <created>1383717619728</created>
       <updated>1383717619728</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Debugging hotmail">
+      <created>1383718384128</created>
+      <updated>1383718384129</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="58" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.23037542">
+        <state line="109" column="45" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.51194537">
           <folding />
         </state>
       </provider>
