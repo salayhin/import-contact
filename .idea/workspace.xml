@@ -7,7 +7,7 @@
     </list>
     <ignored path="import-contact.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383718382096" ignored="false" />
+    <file path="/Dummy.txt" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383718646971" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/controllers/public_users_controller.rb" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1383024735237" ignored="false" />
     <file path="$PROJECT_DIR$/../orto/app/views/public_users/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382702613008" ignored="false" />
     <file path="/twitter_callback.html.haml" changelist="b4ea4856-73b4-438f-be3b-d56c45a39c8a" time="1382695418854" ignored="false" />
@@ -71,7 +71,7 @@
       <file leaf-file-name="hotmail.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="45" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.51194537">
+            <state line="107" column="56" selection-start="4155" selection-end="4155" vertical-scroll-proportion="0.46075085">
               <folding />
             </state>
           </provider>
@@ -454,7 +454,11 @@
       <created>1383718384128</created>
       <updated>1383718384129</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Debugging hotmail">
+      <created>1383718648189</created>
+      <updated>1383718648189</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -642,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/hotmail.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="45" selection-start="4185" selection-end="4185" vertical-scroll-proportion="0.51194537">
+        <state line="107" column="56" selection-start="4155" selection-end="4155" vertical-scroll-proportion="0.46075085">
           <folding />
         </state>
       </provider>
